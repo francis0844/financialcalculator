@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    border: solid 2px black;
+}
+.column img{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+.column h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.imgcon{
+    margin: auto;
+    display: grid;
+}
+.cars:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+.car1{
+    border-right:none ;
+    cursor: pointer;
+}
+.car2{
+    border-right:none ;
+    cursor: pointer;
+}
+.car3{
+    cursor: pointer;
+}
+.column:hover{
+    background-color: #212121;
+    color: white;
+}
+.column div.active{
+    background-color: #000000;
+    color: white;
+}
+.column1 {
+    float: left;
+    width: 33.33%;
+}
+.type:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.type{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+    }
+}
+.column1 p{
+    text-align: center;
+}
+.column1 span{
+    text-align: center;
+}
+.column1{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.column1:hover{
+    background-color: #212121;
+    color: white;
+}
+.column2 {
+    float: left;
+    width: 50%;
+}
+.column2 select{
+    width: 80%;
+}
+.column2 h3{
+    padding-bottom: 20px;
+}
+.drop:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column2 {
+      width: 100%;
+    }
+}
+.butcon button{
+    margin: auto;
+    display: grid;
+}
+.active{
+    background-color: #212121;
+    color: white;
+}
+.column3 {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+.finalresult:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column3 {
+      width: 100%;
+    }
+}
+.resultcon{
+    display: none;
+    background-color: #f5f5f5;
+}
+.col3{
+    padding-top: 98px;
+}
+.column3 p{
+    font-size: 15px;
+    line-height: 2em;
+}
+.text{
+    font-size: 30px!important;
+}
+.column3 h3{
+    padding-bottom: 30px;
+}
+.column4 {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+.resultmonthly:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column4 {
+      width: 100%;
+    }
+}
+.column3 button{
+    margin-top: 20px!important;
+    margin:auto;
+    display: grid;
+}
+.refreshcon{
+    display: none;
+}
+.refreshcon button{
+    margin: auto;
+    display: grid;
+}
